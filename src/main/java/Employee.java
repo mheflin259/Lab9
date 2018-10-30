@@ -10,8 +10,8 @@ public class Employee {
 
     /**
      * Constructor for initialization.
-     * @param name
-     * @param manager
+     * @param name the name of the employee
+     * @param manager the manager
      */
     public Employee(final String name, final String manager) {
         this.name = name;
@@ -28,7 +28,7 @@ public class Employee {
 
     /**
      * Setter for name.
-     * @param name
+     * @param name the new name of the employee
      */
     public void setName(final String name) {
         this.name = name;
@@ -44,7 +44,7 @@ public class Employee {
 
     /**
      * Setter for manager.
-     * @param manager
+     * @param manager the new manager of the employee
      */
     public void setManager(final String manager) {
         this.manager = manager;
